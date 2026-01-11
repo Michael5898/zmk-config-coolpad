@@ -11,7 +11,7 @@
             bindings = <
                &kp C_MUTE        &tog 1
 &kp C_REWIND   &kp K_PLAY_PAUSE  &kp C_FAST_FORWARD
-&kp LC(C)      &kp LC(V)         &kp LC(Z)
+&kp LC(C)      &kp LC(V)         &kp LC(X)
 &kp LS(LC(M))  &kp LC(Z)         &kp LC(Y)
             >;
         };
