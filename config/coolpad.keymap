@@ -14,6 +14,7 @@
 &kp LC(C)       &kp LC(V)   &kp LC(X)
 &kp LS(LC(M))   &kp LC(Z)   &kp LC(Y)
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>
         };
 
         layer_1 {
@@ -23,6 +24,7 @@
 &none       &none      &none
 &bt BT_CLR  &soft_off  &studio_unlock
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>
         };
     };
 };
